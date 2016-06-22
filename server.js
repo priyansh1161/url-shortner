@@ -17,4 +17,5 @@ app.use(function(req,res,next){
 });
 apiController(app , __dirname , urlBase);
 htmlController(app , __dirname , urlBase);
-app.listen(3000);
+var port = process.env.PORT || 80;
+app.listen(port);
