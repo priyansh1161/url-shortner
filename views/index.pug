@@ -21,24 +21,24 @@ html
         <em>Enough Talking</em> lets show you some Examples.
       <br>
       h3 Example :
-      code localhost:3000/api/http://google.com
+      code https://urlshrt.herokuapp.com/api/http://google.com
       p will return output :
       blockquote.
         {
         "orgLink":"https://google.com",<br>
         "shotlink":"loclhost:3000/1"<br>
         }
-      code localhost:3000/api/sjkjk
+      code https://urlshrt.herokuapp.com/api/sjkjk
       p will return error :
       blockquote.
         {
           'err' : 'requested type not a url'
         }
-      h2 To use the shortlinks make a request to / .
+      h2 To use the shortlinks make a request to https://urlshrt.herokuapp.com .
       code loclhost:3000/1
       p will redriect to https://www.google.com
       <br>
-      p.col However any request to root page that is not in database will redirect you back to localhost:3000
+      p.col However any request to root page that is not in database will redirect you back to https://urlshrt.herokuapp.com
     div.footer
       p.foot.
         Copyrights &copy; 2016. MIT licence.
