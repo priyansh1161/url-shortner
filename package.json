@@ -10,7 +10,7 @@
   "dependencies" : {
     "express" : "^4.14.0",
     "pug" : "*",
-    "mongoose" : "~2.1.18"
+    "mongoose" : "~4.5.1"
   },
   "repository": {
     "type": "git",
