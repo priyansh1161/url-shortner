@@ -7,4 +7,4 @@ you can acess your short link at /{{your link}}.
 "shotlink":"https://urlshrt.herokuapp.com/1"<br>
 }</blockquote><code>https://urlshrt.herokuapp.com/api/sjkjk</code><p>will return error :</p><blockquote>{
   'err' : 'requested type not a url'
-}</blockquote><h2>To use the shortlinks make a request to https://urlshrt.herokuapp.com .</h2><code>README.md/1</code><p>will redriect to https://www.google.com</p><br><p class="col">However any request to root page that is not in database will redirect you back to https://urlshrt.herokuapp.com</p></div><div class="footer"><p class="foot">Copyrights &copy; 2016. MIT licence.</p></div></body></html>
+}</blockquote><h2>To use the shortlinks make a request to https://urlshrt.herokuapp.com .</h2><code>https://urlshrt.herokuapp.com/1</code><p>will redriect to https://www.google.com</p><br><p class="col">However any request to root page that is not in database will redirect you back to https://urlshrt.herokuapp.com</p></div><div class="footer"><p class="foot">Copyrights &copy; 2016. MIT licence.</p></div></body></html>
