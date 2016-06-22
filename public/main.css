@@ -1,0 +1,28 @@
+.error{
+  text-align: center;
+  background-color: #D40606;
+  color: white;
+  padding: 5px;
+}
+button{
+  float: right;
+  background-color: red;
+  color: white;
+  border-radius: 100%;
+  border : 1px solid black;
+
+}
+.footer{
+  background-color: #666666;
+  color : white;
+  padding : 15px;
+}
+.col{
+  color: #D40606;
+}
+.foot{
+  text-align: center;
+}
+a:hover,a:visited{
+  color: black;
+}
