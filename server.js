@@ -4,7 +4,7 @@ urlBase = require('./model/db.model'),
 apiController = require('./controller/apiController'),
 htmlController = require('./controller/htmlController');
 var app = express();
-mongoose.connect('localhost' , 'newtesturl');
+mongoose.connect('mongodb://test:test@ds023442.mlab.com:23442/testingbasicnodemongodb');
 app.set('view engine', 'pug');
 app.use('/public',express.static(__dirname + '/public'));
 app.use(function(req,res,next){

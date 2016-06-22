@@ -1,0 +1,25 @@
+{
+  "name": "urlshort",
+  "version": "1.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies" : {
+    "express" : "^4.14.0",
+    "pug" : "*",
+    "mongoose" : "~2.1.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyansh1161/url-shortner.git"
+  },
+  "author": "priyansh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/priyansh1161/url-shortner/issues"
+  },
+  "homepage": "https://github.com/priyansh1161/url-shortner#readme"
+}
