@@ -14,7 +14,7 @@ module.exports = function(app , dir , model){
               console.log("this is saved data ",data);
               res.status(200).json({
               orgLink  : data[0].url,
-              shotlink : 'loclhost:3000/' + data[0]._modID
+              shotlink : 'http://urlshrt.herokuapp.com/' + data[0]._modID
             });
           }
                else{
@@ -31,7 +31,7 @@ module.exports = function(app , dir , model){
                   else{
                   res.status(200).json({
                     orgLink  : data.url,
-                    shotlink : 'loclhost:3000/' + data._modID
+                    shotlink : 'http://urlshrt.herokuapp.com/' + data._modID
                   });
                 }});
               });
