@@ -14,7 +14,9 @@ module.exports = function(app , dir , model){
               console.log("this is saved data ",data);
               res.status(200).json({
               orgLink  : data[0].url,
-              shotlink : 'loclhost:3000/' + data[0]._modID
+              shotlink : 'localhost:3000/' + data[0]._modID
+              //I think you should save the above shortlink to database and then return the slug from there
+              //otherwise it not be of any use other than having local server.
             });
           }
                else{
